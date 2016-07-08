@@ -123,3 +123,5 @@ I praksis gøres dette ved at slette <em>cache</em> værdierne på given tidspun
 Det kan være svært at nå hele vejen rundt, men det er ikke desto mindre meget vigtigt, at du gør en indsats for det.
 <h3>Nu er du klar</h3>
 Dette var de grundlæggende principper i <em>caching</em> af værdier på funktionsniveau. Nu er det tid til at undersøge mulighederne i dit yndlings <em>framework, </em>og komme i gang med at få optimeret hastigheden på din applikation :-)
+
+[contentblock id=2 img=gcb.png]
