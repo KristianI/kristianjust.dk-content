@@ -1,6 +1,8 @@
 ---
 ID: 10
-post_title: 'Beskyttet: Sådan optimerer du hastigheden på PHP med Cachegrind'
+post_title: >
+  Sådan optimerer du hastigheden på PHP
+  med Cachegrind
 author: kristian@justiversen.dk
 post_date: 2016-06-30 09:50:09
 post_excerpt: ""
@@ -81,3 +83,5 @@ Hvis ingen funktioner ser ud til at have en urimelig lang eksekveringstid, kan d
 <strong></strong>Ja!
 
 Overblikket over dine funktionskald i <em>WinCacheGrind</em>, lidt sund fornuft og eftertanke gør, at du meget nemt kan overtage kontrollen over dine store PHP projekter igen.
+
+[contentblock id=link_to_github]
