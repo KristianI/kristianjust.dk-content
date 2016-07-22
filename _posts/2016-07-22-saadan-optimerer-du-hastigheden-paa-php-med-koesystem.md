@@ -11,6 +11,7 @@ permalink: >
   http://kristianjust.dk/saadan-optimerer-du-hastigheden-paa-php-med-koesystem/
 published: true
 ---
+[contentblock id=hastighedsoptimering_artikelserie]
 Mange opgaver kan udføres, uden brugeren af din webapplikation behøver vente imens. Låser du brugeren, mens der fx afsendes e-mail, så giver jeg dig nu opskriften på, hvordan <strong>du kan gøre det smartere</strong>.
 
 Med det rigtige setup, kan du give en sømløs brugeroplevelse - uden at forsinke udførelsen af opgaver.
@@ -52,3 +53,5 @@ Derudover skal du selv til at skrive koden til dit nye simple køsystem. Min anb
 <span>Som en del af Amazons populære serverløsninger findes også <a href="https://aws.amazon.com/sqs/">Amazon SQS</a>, der løfter samme opgave. Det er let at implementere med færdigskrevne PHP-pakker, ligesom der findes færdige pakker til de andre løsninger derude.</span>
 
 <span>Løsningerne er i bund og grund ikke så forskellige, så find en der passer godt til dit setup. Jeg er sikker på, at du og dine brugere bliver glade for dit nye køsystem.</span>
+
+[contentblock id=2 img=gcb.png]
