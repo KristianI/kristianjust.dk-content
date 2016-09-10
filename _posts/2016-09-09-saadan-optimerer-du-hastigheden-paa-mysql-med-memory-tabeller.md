@@ -11,7 +11,9 @@ permalink: >
   http://kristianjust.dk/saadan-optimerer-du-hastigheden-paa-mysql-med-memory-tabeller/
 published: true
 ---
-PHP og MySQL hænger tæt sammen. Ønsker man at optimere hastigheden i sin PHP applikation, vil det være oplagt at forsøge at minimere kald til MySQL databasen eller at gøre eksekveringen af MySQL forespørgslerne hurtigere.
+[contentblock id=hastighedsoptimering_artikelserie]
+
+PHP og MySQL hænger som regel tæt sammen. Ønsker man at optimere hastigheden i sin PHP applikation, vil det være oplagt at forsøge at minimere kald til MySQL databasen eller at gøre eksekveringen af MySQL forespørgslerne hurtigere.
 
 De mest almindelige MySQL tabeltyper er <em>MyISAM</em> og <em>InnoDB</em>. Men MySQL tilbyder også andre mindre populære tabeltyper - heriblandt <strong><em>MEMORY </em></strong>tabeltypen.
 
@@ -283,7 +285,9 @@ Overraskende var det, at testene med både læsning og skrivning var hurtigere e
 MEMORY tabellerne tog i alle testene kun cirka halvdelen af den tid, som de tilsvarende InnoDB tests brugte, selv under påvirkning af en ekstern databaseproces, der havde til formål at påvirke locking af tabellen/rækkerne.
 
 Under påvirkning af en forstyrrende proces blev føringen til MEMORY tabellen reduceret en smule. Ved påvirkning af flere kørende processer vil der kunne opstå yderligere reduktion. Det kan ikke udelukkes, at mange INSERT/UPDATE/DELETE vil kunne påvirke locking i så høj grad, at MEMORY ikke længere er gunstig.
-<h3>Konklusion</h3>
+<h3>Så hvad vil du anbefale, Kristian?</h3>
 De udførte benchmarks viser en meget stor hastighedsgevinst ved at benytte MEMORY tabeller.
 
 Det er klart værd at undersøge, om man har nogle oplagte use-cases for MEMORY tabellen. Om ikke andet bør det tænkes ind i fremtidige projekter.
+
+[contentblock id=2 img=gcb.png]
