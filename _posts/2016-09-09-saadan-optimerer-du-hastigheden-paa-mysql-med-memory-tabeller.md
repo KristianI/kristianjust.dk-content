@@ -69,7 +69,7 @@ Det oplagte valg af værktøj for benchmarking ville være det etablerede <em>sy
 
 For at kunne bekræfte/afkræfte resultaterne af sysbench har jeg udviklet et PHP benchmark værktøj, der ved hjælp af simple MySQL forespørgsler med MySQLi driveren, kan køre en række forskellige typer af tests på InnoDB og MEMORY tabeltyperne.
 
-Værktøjet er tilgængeligt på https://github.com/KristianI/innodb-memory-benchmarks og licenseret under MIT.
+Værktøjet er tilgængeligt på <a href="https://github.com/KristianI/innodb-memory-benchmarks">https://github.com/KristianI/innodb-memory-benchmarks</a> og licenseret under MIT.
 
 Efter fuldført benchmarking kan det bekræftes, at sysbench udviste utilregnelige resultater for MEMORY tabellen.
 
